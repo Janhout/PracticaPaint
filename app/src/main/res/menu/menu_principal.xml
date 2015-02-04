@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Principal">
+    <item
+        android:id="@+id/menu_color"
+        android:orderInCategory="100"
+        android:title="@string/menu_color"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_grosor"
+        android:orderInCategory="100"
+        android:title="@string/menu_grosor"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_nuevo"
+        android:orderInCategory="100"
+        android:title="@string/menu_nuevo"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/file"/>
+    <item
+    android:id="@+id/menu_cargar"
+    android:orderInCategory="100"
+    android:title="@string/menu_cargar"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/folder"/>
+    <item
+        android:id="@+id/menu_guardar"
+
+        android:orderInCategory="100"
+        android:title="@string/menu_guardar"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_save"/>
+    <item
+        android:id="@+id/menu_deshacer"
+        android:orderInCategory="100"
+        android:title="@string/menu_deshacer"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_undo"/>
+    <item
+        android:id="@+id/menu_borrar"
+        android:orderInCategory="100"
+        android:title="@string/menu_borrar"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/eraser"/>
+    <item
+        android:id="@+id/menu_tipo"
+        android:orderInCategory="100"
+        android:title="@string/menu_tipo"
+        app:showAsAction="never" />
+</menu>

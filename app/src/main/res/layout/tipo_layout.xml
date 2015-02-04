@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <RadioGroup
+        android:id="@+id/grupoRadio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rbNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/tipo_normal" />
+
+        <RadioButton
+            android:id="@+id/rbRecta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_recta" />
+
+        <RadioButton
+            android:id="@+id/rbCuadrado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_cuadrado" />
+
+        <RadioButton
+            android:id="@+id/rbCuadradoR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_cuadrado_relleno" />
+
+        <RadioButton
+            android:id="@+id/rbCirculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_circulo" />
+
+        <RadioButton
+            android:id="@+id/rbCirculoR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_circulo_relleno" />
+
+        <RadioButton
+            android:id="@+id/rbOval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_oval" />
+
+        <RadioButton
+            android:id="@+id/rbOvalR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_oval_relleno" />
+    </RadioGroup>
+</LinearLayout>

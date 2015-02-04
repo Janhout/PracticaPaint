@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practica Paint</string>
+    <string name="menu_color">Color</string>
+    <string name="menu_grosor">Grosor</string>
+    <string name="menu_nuevo">Nuevo Dibujo</string>
+    <string name="menu_deshacer">Deshacer</string>
+    <string name="menu_cargar">Cargar Dibujo</string>
+    <string name="menu_guardar">Guardar Dibujo</string>
+    <string name="menu_tipo">Dibujo</string>
+    <string name="menu_borrar">Goma</string>
+    <string name="selector_tipo">Selector Tipo</string>
+    <string name="selector_valor">Selector Valor</string>
+    <string name="nombre_guardar">Nombre Fichero</string>
+    <string name="seleccion_grosor">Seleccionar Grosor</string>
+    <string name="seleccion_tipo">Seleccionar Tipo</string>
+
+    <string name="nombre_fichero">nombreDelFichero</string>
+    <string name="error_nombre">El nombre no puede estar vacío</string>
+
+    <string name="tipo_recta">Recta</string>
+    <string name="tipo_normal">Normal</string>
+    <string name="tipo_cuadrado_relleno">Cuadrado con Relleno</string>
+    <string name="tipo_circulo_relleno">Circulo</string>
+    <string name="tipo_circulo">Circunferencia</string>
+    <string name="tipo_cuadrado">Cuadrado</string>
+    <string name="tipo_oval_relleno">Ovalo Relleno</string>
+    <string name="tipo_oval">Ovalo</string>
+
+
+
+</resources>
