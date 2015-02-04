@@ -124,7 +124,9 @@ public class Vista extends View {
 
                 coordenadas.xi = x;
                 coordenadas.yi = y;
-                if (tipo == Dibujo.NORMAL || tipo == Dibujo.GOMA) {
+                if(coordenadas.x0 == coordenadas.xi && coordenadas.y0 == coordenadas.yi) {
+                    fondo.drawPoint(coordenadas.xi, coordenadas.yi, pincel);
+                } else if (tipo == Dibujo.NORMAL || tipo == Dibujo.GOMA) {
                     fondo.drawPath(p, pincel);
                     p.reset();
                 } else if (tipo == Dibujo.CUADRADO || tipo == Dibujo.CUADRADO_RELLENO) {
