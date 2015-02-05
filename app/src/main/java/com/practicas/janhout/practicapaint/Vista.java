@@ -48,6 +48,7 @@ public class Vista extends View {
         p = new Path();
         pincel = new Paint();
         pincel.setAntiAlias(true);
+        pincel.setStrokeCap(Paint.Cap.ROUND);
         coordenadas = new Coordenadas();
         colorActual = Color.BLACK;
         goma = Color.WHITE;
